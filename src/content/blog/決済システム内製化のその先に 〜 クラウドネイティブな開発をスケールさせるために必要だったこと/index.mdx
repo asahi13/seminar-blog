@@ -1,0 +1,153 @@
+---
+title: '決済システム内製化のその先に 〜 クラウドネイティブな開発を"スケール"させるために必要だったこと'
+description: ''
+pubDate: 'Dec 11 2023'
+heroImage: '/images/clooud-native-days-tokyo2023.png'
+---
+
+import Carousel from '../../../components/Carousel.astro';
+import image01 from "./images/2023-12-11-17-21-00.png";
+import image02 from "./images/2023-12-11-17-21-39.png";
+import image03 from "./images/2023-12-11-17-22-12.png";
+import image04 from "./images/2023-12-11-17-22-37.png";
+import image05 from "./images/2023-12-11-17-22-52.png";
+import image06 from "./images/2023-12-11-17-23-20.png";
+import image07 from "./images/2023-12-11-17-23-36.png";
+import image08 from "./images/2023-12-11-17-24-24.png";
+import image09 from "./images/2023-12-11-17-25-02.png";
+import image10 from "./images/2023-12-11-17-25-34.png";
+import image11 from "./images/2023-12-11-17-26-20.png";
+import image12 from "./images/2023-12-11-17-26-59.png";
+import image13 from "./images/2023-12-11-17-27-47.png";
+import image14 from "./images/2023-12-11-17-29-17.png";
+import image15 from "./images/2023-12-11-17-30-37.png";
+import image16 from "./images/2023-12-11-17-31-08.png";
+import image17 from "./images/2023-12-11-17-31-35.png";
+import image18 from "./images/2023-12-11-17-31-52.png";
+import image19 from "./images/2023-12-11-17-32-21.png";
+import image20 from "./images/2023-12-11-17-33-07.png";
+import image21 from "./images/2023-12-11-17-33-51.png";
+import image22 from "./images/2023-12-11-17-34-26.png";
+import image23 from "./images/2023-12-11-17-35-33.png";
+import image24 from "./images/2023-12-11-17-37-13.png";
+import image25 from "./images/2023-12-11-17-48-01.png";
+import image26 from "./images/2023-12-11-17-56-05.png";
+
+export const description = "SBペイメントサービスは内製開発の立ち上げから既に5年以上が経過し、新たな開発プロジェクトが2年前に始まりました。"
++"このプロジェクトは当社の中でも最大規模のシステムリプレイスのため開発パートナー企業にも協力いただき、またクラウド環境ではなくオンプレミスで構築されています。"
++"このセッションでは開発体制をスケーリングする際に直面した課題や解決するためにしたことをお伝えします。"
++"またクラウドネイティブな開発体験をどのようにオンプレミスで実現したのか、効率と品質を向上させるためのアーキテクチャや事例について紹介する予定です。";
+
+
+export const cards = [
+  {
+    id:"01",
+    image:image01,
+    text:"",
+    alt:"image01"
+  },
+  {
+    id:"03",
+    image:image03,
+    text:"",
+    alt:"image03"
+  },
+  {
+    id:"02",
+    image:image04,
+    text:"tanzu使ってみたいな＾＾",
+    alt:"image04"
+  },
+  {
+    id:"03",
+    image:image06,
+    text:"kubernetesは大変",
+    alt:"image06"
+  },
+  {
+    id:"04",
+    image:image07,
+    text:"tanzu使ってみたいな＾＾",
+    alt:"image07"
+  },
+  {
+    id:"05",
+    image:image08,
+    text:"意外と少人数体制",
+    alt:"image08"
+  },
+  {
+    id:"06",
+    image:image09,
+    text:"アーキの参考に",
+    alt:"image09"
+  },
+  {
+    id:"07",
+    image:image10,
+    text:"Microservices",
+    alt:"image10"
+  },
+  {
+    id:"08",
+    image:image11,
+    text:"サーキットブレイク",
+    alt:"image11"
+  },
+  {
+    id:"09",
+    image:image12,
+    text:"",
+    alt:"image12"
+  },
+  {
+    id:"10",
+    image:image13,
+    text:"う～ん。うちのチーム、こんなに減っているかな。",
+    alt:"image13"
+  },
+  {
+    id:"11",
+    image:image14,
+    text:"",
+    alt:"image14"
+  },
+  {
+    id:"12",
+    image:image15,
+    text:"工数削減",
+    alt:"image15"
+  },
+  {
+    id:"14",
+    image:image17,
+    text:"",
+    alt:"image17"
+  },
+  {
+    id:"15",
+    image:image18,
+    text:"F5 DCSは一部は",
+    alt:"image18"
+  },
+  {
+    id:"16",
+    image:image19,
+    text:"",
+    alt:"image19"
+  },
+  {
+    id:"17",
+    image:image21,
+    text:"N字モデル。初耳",
+    alt:"image21"
+  },
+  {
+    id:"18",
+    image:image24,
+    text:"この体制が良いのかもな",
+    alt:"image24"
+  },
+];
+
+<Carousel description={description} cards={cards}/>
