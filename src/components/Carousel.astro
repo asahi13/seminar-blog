@@ -8,7 +8,7 @@ const { description, cards } = Astro.props;
 </p>
 <swiper-container class="mySwiper" pagination="true" 
 pagination-type="progressbar" navigation="true" keyboard="true">
-{cards.map(card =>(
+{cards.map((card:any) =>(
     <swiper-slide>
       <div>
       <Image src={card.image} alt={card.alt} />
